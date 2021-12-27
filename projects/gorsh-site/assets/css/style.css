@@ -1,0 +1,316 @@
+body {
+    background-color: #000;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*------------------------------
+-----------HEADER---------------
+----------------------------*/
+
+.nav-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#nav {
+    margin-left: 500px;
+}
+
+.nav-item {
+    color: black;
+}
+
+#navbarDropdown {
+    font-size: 18px;
+    /* identical to box height */
+    color: #000000;
+}
+
+#navbarDropdown:hover {
+    transition-duration: .6s;
+    color: rgb(158, 158, 158);
+}
+
+#header-link {
+    font-size: 18px;
+    /* identical to box height */
+    color: #000000;
+}
+
+#header-link:hover {
+    transition-duration: .6s;
+    color: rgb(158, 158, 158);
+}
+
+.logo-img {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 560px;
+}
+
+.wrapper {
+    margin-top: 100px;
+    height: 10vh;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.typing-demo {
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 32px;
+    color: #fff;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+
+/*-----------------------------
+----------SHADES---------------
+------------------------------*/
+
+.shades-wrapper {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.shades-content {
+    max-width: 491px;
+    margin-left: 90px;
+}
+
+.title {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    letter-spacing: 2.8125px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.shades-heading {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    /* or 117% */
+    letter-spacing: -2.52632px;
+    color: #FFFFFF;
+}
+
+.shades-text {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    color: #E4E4E4;
+}
+
+.view {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.view-a:hover {
+    transition-duration: .5s;
+    color: rgb(168, 168, 168);
+}
+
+
+/*----------------------
+-------POD--------------
+-----------------------*/
+
+.pod-wrapper {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.pod-content {
+    max-width: 491px;
+}
+
+
+/*--------------
+-----GOGH------
+--------------*/
+
+.vangogh {
+    margin-top: 100px;
+}
+
+.vangogh-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.gogh-content {
+    max-width: 491px;
+    margin-left: 90px;
+}
+
+
+/*---------------
+----INSURANCE----
+---------------*/
+
+.insurance {
+    margin-top: 100px;
+}
+
+.insurance-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.insurance-content {
+    max-width: 491px;
+}
+
+
+/*-----------------
+------CONTACT------
+-----------------*/
+
+.contact {
+    margin-top: 300px;
+}
+
+.contact-wrapper {
+    justify-content: center;
+    display: flex;
+}
+
+.contact-heading {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+    letter-spacing: 39px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.contact-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 53px;
+    /* or 297% */
+    letter-spacing: 39px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.contact-stroke {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 53px;
+    /* or 297% */
+    color: #FFFFFF;
+}
+
+#ig:hover {
+    transition-duration: .5s;
+    opacity: .4;
+}
+
+
+/*--------
+waves
+------*/
+
+.waves {
+    margin-top: 300px;
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+    /*Fix for safari gap*/
+    min-height: 100px;
+    max-height: 150px;
+}
+
+.content {
+    position: relative;
+    height: 20vh;
+    text-align: center;
+    background-color: white;
+}
+
+
+/* Animation */
+
+.parallax>use {
+    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+.parallax>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+
+.parallax>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+
+.parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+
+.parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
+}
