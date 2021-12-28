@@ -1,0 +1,284 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+}
+
+#header-link {
+    color: black;
+}
+
+#header-logo {
+    opacity: .6;
+}
+
+#header-logo:hover {
+    transition-duration: .3s;
+    opacity: 1;
+}
+
+.header-heading-wrapper {
+    margin-top: 120px;
+    max-width: 832px;
+}
+
+.header-heading {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 88px;
+    /* or 122% */
+    text-transform: uppercase;
+    /* White */
+    color: #FFFFFF;
+}
+
+
+/*-----------------------------
+------------PICTURES------------
+-----------------------------*/
+
+.pictures-container-one {
+    padding: 0px 0px;
+    margin-top: 104px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.first-picture-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-picture-text {
+    margin-top: 12px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    text-transform: uppercase;
+    /* White */
+    color: #FFFFFF;
+}
+
+.nr1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    text-transform: uppercase;
+    /* White */
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+.first-picture-text:hover {
+    color: #fff;
+    transition-duration: .4s;
+    opacity: .3;
+}
+
+.arrow {
+    margin-left: 16px;
+}
+
+.pictures-container-two {
+    margin-top: 110px;
+    display: flex;
+}
+
+.second-picture-wrapper {
+    margin-top: 40px;
+    margin-left: 128px;
+    display: flex;
+    flex-direction: column;
+}
+
+.third-picture-wrapper {
+    margin-left: 272px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth-picture-wrapper {
+    margin-left: 128px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pictures-container-three {
+    margin-top: 80px;
+    display: flex;
+}
+
+.fifth-picture-wrapper {
+    margin-left: 96px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sixth-picture-wrapper {
+    margin-top: 56px;
+    margin-left: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*---------------------------
+---------CONTENT-------------
+------------------------*/
+
+.content-section {
+    margin-top: 176px;
+    margin-bottom: 400px;
+}
+
+.headings {
+    max-width: 1024px;
+}
+
+.content-heading {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 88px;
+    /* or 122% */
+    text-transform: uppercase;
+    /* White */
+    color: #FFFFFF;
+}
+
+.content-subtitle {
+    margin-top: 48px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    /* or 125% */
+    text-transform: uppercase;
+    /* White */
+    color: #FFFFFF;
+}
+
+.content {
+    margin-top: 176px;
+    display: flex;
+}
+
+.person-img {
+    margin-left: 96px;
+}
+
+.content-text {
+    margin-left: 97px;
+    margin-top: 133px;
+}
+
+.stroke {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    text-transform: uppercase;
+    /* White */
+    color: #FFFFFF;
+}
+
+.st-nr {
+    margin-left: 131px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    text-align: right;
+    text-transform: uppercase;
+    /* White */
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+.st-nr2 {
+    margin-left: 348px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    text-align: right;
+    text-transform: uppercase;
+    /* White */
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+.st-nr3 {
+    margin-left: 218px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    text-align: right;
+    text-transform: uppercase;
+    /* White */
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+.st-nr4 {
+    margin-left: 268px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    text-align: right;
+    text-transform: uppercase;
+    /* White */
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+.st-nr5 {
+    margin-left: 194px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    text-align: right;
+    text-transform: uppercase;
+    /* White */
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+.light {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    text-transform: uppercase;
+    /* White */
+    color: #FFFFFF;
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VanGogh</title>
+
+    <!--CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+    <!--SCREEN-->
+    <style>
+        @media (max-width: 414px) {
+            .header-heading {
+                font-size: 44px;
+            }
+            .pictures-container-one {
+                flex-direction: column;
+            }
+            .first-picture-wrapper {
+                margin-bottom: 50px;
+            }
+            .third-picture-wrapper {
+                margin-left: 0px;
+            }
+            .pictures-container-two {
+                flex-direction: column;
+            }
+            .fourth-picture-wrapper {
+                margin-top: 100px;
+            }
+            .pictures-container-three {
+                flex-direction: column;
+            }
+            .content-heading {
+                font-size: 34px;
+            }
+            .content-subtitle {
+                font-size: 22px;
+            }
+            .content {
+                flex-direction: column;
+            }
+            .person-img {
+                margin-left: 0px;
+            }
+            .content-text {
+                margin-left: 0px;
+            }
+            .stroke {
+                font-size: 20px;
+            }
+            .st-nr {
+                font-size: 20px;
+                margin-left: 100px;
+            }
+            .st-nr2 {
+                font-size: 20px;
+                margin-left: 280px;
+            }
+            .st-nr3 {
+                font-size: 20px;
+                margin-left: 286px;
+            }
+            .st-nr4 {
+                font-size: 20px;
+                margin-left: 280px;
+            }
+            .st-nr5 {
+                font-size: 20px;
+                margin-left: 289px;
+            }
+            .light {
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav style="margin-top: 20px;" class="navbar navbar-dark bg-transparent">
+                <div class="container">
+                    <a class="navbar-brand" href="#" id="header-logo"><img src="assets/img/header/Vincent_van_Gogh_signature_(Vincent) 1.svg" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link" id="header-link" aria-current="page" href="night.html">The Starry Night</a>
+                                    <a class="nav-link" id="header-link" aria-current="page" href="cafe.html">The Night Café</a>
+                                    <a class="nav-link" id="header-link" aria-current="page" href="#">The Red Vineyard</a>
+                                    <a class="nav-link" id="header-link" aria-current="page" href="#">Ward in the Hospital in Arles</a>
+                                    <a class="nav-link" id="header-link" aria-current="page" href="#">Ploughman in the Fields near Arles</a>
+                                    <a class="nav-link" id="header-link" aria-current="page" href="#">Paul Gauguin's Armchair</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="header-heading-wrapper">
+                <h2 class="header-heading">Vincent Van Gogh. post-impressionist painter and artist</h2>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="pictures-section">
+            <div class="container">
+                <div class="pictures-container-one">
+                    <div class="first-picture-wrapper">
+                        <img class="img-fluid" src="assets/img/main/first.svg" alt="">
+                        <a class="first-picture-text" href="night.html"><span class="nr1">1ㅤ</span>The Starry Night <img src="assets/img/arrow.svg" class="arrow" alt=""></a>
+                    </div>
+                    <div class="second-picture-wrapper">
+                        <img class="img-fluid" src="assets/img/main/second.svg" alt="">
+                        <a href="cafe.html" class="first-picture-text"><span class="nr1">2ㅤ</span>The Night Café <img src="assets/img/arrow.svg" class="arrow" alt=""></a>
+                    </div>
+                </div>
+                <div class="pictures-container-two">
+                    <div class="third-picture-wrapper">
+                        <img class="img-fluid" src="assets/img/main/third.svg" alt="">
+                        <a href="#" class="first-picture-text"><span class="nr1">3ㅤ</span>The Red Vineyard <img src="assets/img/arrow.svg" class="arrow" alt=""></a>
+                    </div>
+                    <div class="fourth-picture-wrapper">
+                        <img class="img-fluid" src="assets/img/main/fourth.svg" alt="">
+                        <a href="#" class="first-picture-text"><span class="nr1">4ㅤ</span>The Red Vineyard <img src="assets/img/arrow.svg" class="arrow" alt=""></a>
+                    </div>
+                </div>
+                <div class="pictures-container-three">
+                    <div class="fifth-picture-wrapper">
+                        <img class="img-fluid" src="assets/img/main/fifth.svg" alt="">
+                        <a href="#" class="first-picture-text"><span class="nr1">5ㅤ</span>Ploughman in the Fields near Arles <img src="assets/img/arrow.svg" class="arrow" alt=""></a>
+                    </div>
+                    <div class="sixth-picture-wrapper">
+                        <img class="img-fluid" src="assets/img/main/sixth.svg" alt="">
+                        <a href="#" class="first-picture-text"><span class="nr1">6ㅤ</span>Paul Gauguin's Armchair <img src="assets/img/arrow.svg" class="arrow" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content-section">
+            <div class="container">
+                <div class="content-wrapper">
+                    <div class="headings">
+                        <h2 class="content-heading">Van Gogh painted several landscapes with flowers, roses, lilacs, and sunflowers.</h2>
+                        <h3 class="content-subtitle">Some reflect his interests in the language of colour, and also in Japanese ukiyo-e. There are two series of dying sunflowers. The first was painted in Paris in 1887 and shows flowers lying on the ground.</h3>
+                    </div>
+                    <div class="content">
+                        <div class="person-img">
+                            <img src="assets/img/main/person.svg" class="img-fluid" alt="">
+                        </div>
+                        <div class="content-text">
+                            <p class="stroke">Nuenen and Antwerp<span class="st-nr">1883</span>
+                            </p>
+                            <p class="light">painting intern</p>
+                            <p class="stroke">Paris<span class="st-nr2">1886</span>
+                            </p>
+                            <p class="light">junior painter</p>
+                            <p class="stroke">Gauguin's visit<span class="st-nr3">1888</span>
+                            </p>
+                            <p class="light">Experimental artist</p>
+                            <p class="stroke">Saint-Rémy<span class="st-nr4">1889</span>
+                            </p>
+                            <p class="light">Senior Painter</p>
+                            <p class="stroke">Auvers-sur-Oise<span class="st-nr5">1890</span>
+                            </p>
+                            <p class="light">painting studio manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!--BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>
