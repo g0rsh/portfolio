@@ -1,0 +1,395 @@
+    .toggler-color {
+        background-color: #E9C121;
+    }
+    /*--------------------------*/
+    /*----------HOME-----------*/
+    /*-------------------------*/
+    
+    .header {
+        height: 851px;
+        background-image: url(../img/home/dsc_6207smoothweb-1634233413105\ 1.png);
+    }
+    
+    .nav-text {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+        color: #FFFFFF;
+    }
+    
+    .nav-logo {
+        width: 254px;
+    }
+    
+    .nav-position {
+        margin-top: 35px;
+    }
+    
+    .navbar-toggler-icon {
+        color: #fff;
+    }
+    
+    #text {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+        color: #FFFFFF;
+    }
+    
+    #navbarDropdown {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+        color: #FFFFFF;
+    }
+    
+    #text:hover {
+        transition-duration: .4s;
+        color: #E9C121;
+        text-shadow: 1px 1px 2px #63520f;
+    }
+    
+    #navbarDropdown:hover {
+        transition-duration: .4s;
+        color: #E9C121;
+        text-shadow: 1px 1px 2px #63520f;
+    }
+    
+    .move-me {
+        margin-left: 526px;
+    }
+    
+    .header-content {
+        margin-top: 110px;
+        max-width: 505px;
+        max-height: 302px;
+    }
+    
+    .header-heading {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 98px;
+        color: #FFFFFF;
+    }
+    
+    .header-btn {
+        margin-top: 36px;
+        width: 292px;
+        height: 70px;
+        background-color: #E9C121;
+        border-color: #E9C121;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        /* identical to box height */
+        color: #FFFFFF;
+    }
+    
+    .header-btn-style {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .header-btn-style:hover {
+        color: #fff;
+    }
+    
+    .instagram:hover {
+        transition-duration: .5s;
+        opacity: .8;
+    }
+    
+    .header-btn:hover {
+        transition-duration: .5s;
+        background-color: #aa8f25;
+        border-color: #aa8f25;
+        box-shadow: 0px 0px 15px #63520f;
+    }
+    /*
+    ------------------------
+    --------ABOUT-----------
+    ------------------------
+    */
+    
+    .about-wrapper {
+        margin-top: 170px;
+        margin-bottom: 253px;
+        background-image: url(../img/about/Без\ имени-1.png);
+        max-width: 1120px;
+        height: 664px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .about-content {
+        max-width: 524px;
+    }
+    
+    .about-title {
+        font-family: Karla;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        letter-spacing: 0.35em;
+        color: #E9C121;
+    }
+    
+    .about-heading {
+        margin-top: 81px;
+        font-family: Karla;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 103px;
+        /* or 143% */
+        letter-spacing: 0.02em;
+        color: #000000;
+    }
+    
+    .about-subline {
+        color: #E9C121;
+        text-decoration: underline;
+    }
+    
+    .p {
+        color: #E9C121;
+    }
+    
+    .od {
+        color: #fff;
+    }
+    
+    .n {
+        color: #E9C121;
+    }
+    
+    .ess {
+        color: #fff;
+    }
+    
+    .about-text {
+        max-width: 380px;
+        margin-top: 30px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 167.9%;
+        /* or 27px */
+        letter-spacing: 0.01em;
+        color: #000000;
+    }
+    /*
+    ------------------------
+    --------PRICES-----------
+    ------------------------
+    */
+    
+    .prices-heading-container {
+        padding-top: 95px;
+        max-width: 1120px;
+        height: 533px;
+        background-image: url(../img/prices/heading-bg.png);
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 126px;
+    }
+    
+    .prices-title {
+        text-align: center;
+        font-family: Karla;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        letter-spacing: 0.35em;
+        color: #E9C121;
+    }
+    
+    .prices-heading {
+        margin-left: 258px;
+        margin-top: 69px;
+        max-width: 527px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 80px;
+        text-align: right;
+        letter-spacing: -0.025em;
+        color: #000000;
+    }
+    
+    .nn {
+        color: #E9C121;
+    }
+    
+    .prices-melatonin-wrapper {
+        max-width: 1051px;
+        min-height: 680px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+    
+    .melatonin-content {
+        max-width: 593px;
+    }
+    
+    .melatonin {
+        padding-top: 0px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 143px;
+        /* or 199% */
+        letter-spacing: 0.21em;
+        color: #A08F65;
+    }
+    
+    .melatonin-text {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 167.9%;
+        /* or 27px */
+        letter-spacing: 0.01em;
+        color: #000000;
+        margin-bottom: 20px;
+    }
+    
+    .melatonin-price {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 54px;
+        line-height: 143%;
+        /* identical to box height, or 0px */
+        letter-spacing: 0.095em;
+        color: #A08F65;
+    }
+    
+    .prices-energy-wrapper {
+        max-width: 1051px;
+        min-height: 680px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-bottom: 57px;
+    }
+    
+    .energy-content {
+        max-width: 593px;
+        margin-left: 20px;
+    }
+    
+    .energy {
+        padding-top: 0px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 143px;
+        /* or 199% */
+        letter-spacing: 0.21em;
+        color: #E9C121;
+    }
+    
+    .energy-text {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 167.9%;
+        /* or 27px */
+        letter-spacing: 0.01em;
+        color: #000000;
+        margin-bottom: 20px;
+    }
+    
+    .energy-price {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 54px;
+        line-height: 143%;
+        /* identical to box height, or 0px */
+        letter-spacing: 0.095em;
+        color: #E9C121;
+    }
+    /*
+    ------------------------
+    --------REVIEWS-----------
+    ------------------------
+    */
+    
+    .reviews-wrapper {
+        max-width: 1004px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 700px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .reviews-title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .reviews-heading {
+        font-family: Karla;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 68px;
+        /* or 94% */
+        letter-spacing: 0.02em;
+    }
+    
+    .reviews-cards {
+        margin-top: 90px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 150px;
+    }
+    /*
+    ------------------------
+    --------FOOTER-----------
+    ------------------------
+    */
+    
+    .footer {
+        height: 400px;
+        background-color: #A08F65;
+    }
+    
+    .footer-copyright {
+        margin-top: 10px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 21px;
+        /* identical to box height */
+        color: #FFFFFF;
+        text-align: left;
+    }
